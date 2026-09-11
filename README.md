@@ -1,103 +1,39 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
+# OruPaad-LeafTHANda
 
+"Because some gaps simply deserve to be measured."
 
+This is a humorous "useless project" for a TinkerHub Make-a-thon. The application analyzes a photograph of a palm leaf and estimates the approximate physical width of the empty gaps between adjacent palm-leaf strips/leaflets. 
 
-# [OruPaad-LeafTHANda] 🎯
+It uses in-browser computer vision (`OpenCV.js`) to find a ₹1 coin for scale, isolate the green regions of the palm leaf, and measure the empty void between leaflets, producing highly scientific-sounding but practically useless statistics.
 
+## Setup Instructions
 
-## Basic Details
-### Team Name: [Timex]
+1. Ensure you have Node.js and `npm` installed.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```
 
+## How it works
 
-### Team Members
-- Team Lead: [Prajod prakash] - [Providence college of engineering]
-- Member 2: [Joel francis] - [Providence college of engineering]
-  
+- **Coin Detection**: Converts the image to grayscale, applies a median blur, and uses Hough Circle Transform to locate the ₹1 coin for pixel-to-millimeter scale calibration.
+- **Leaflet Segmentation**: Uses HSV color space thresholding to isolate the green sections of the leaf.
+- **Gap Measurement**: Inverts the leaf mask to identify empty regions within the bounding box of the leaf. Uses contour analysis to find gaps that match plausible inter-leaflet spaces, and calculates representative widths.
+- **Humor generation**: Generates a Uselessness Score based on gap density and average spacing. 
 
-### Project Description
-[OrupaadLeafThaanda is an intentionally over-engineered web app dedicated to measuring the completely irrelevant gap between fan palm leaflets]
+## Tech Stack
+- Frontend: React + TypeScript + Vite
+- Styling: Tailwind CSS
+- Icons: Lucide React
+- Computer Vision: OpenCV.js (loaded via CDN)
+- Charts: Recharts
 
-### The Problem (that doesn't exist)
-[]
-
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
-## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
-Made with ❤️ at TinkerHub Useless Projects 
-
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
-
-
-
+*All processing happens locally in your browser. No image data is sent to external servers.*
