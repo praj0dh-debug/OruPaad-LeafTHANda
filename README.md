@@ -2,23 +2,23 @@
 
 
 
-# [Project Name] 🎯
+# [OruPaad-LeafTHANda] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Timex]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Prajod prakash] - [Providence college of engineering]
+- Member 2: [Joel francis] - [Providence college of engineering]
+  
 
 ### Project Description
-[2-3 lines about what your project does]
+[OrupaadLeafThaanda is an intentionally over-engineered web app dedicated to measuring the completely irrelevant gap between fan palm leaflets]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[]
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]
