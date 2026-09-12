@@ -52,7 +52,7 @@ For Software:
 *The comprehensive dashboard showing annotated gaps, distributions, and the Uselessness Score.*
 
 # Diagrams
-![Workflow](./docs/workflow.png)
+(https://drive.google.com/file/d/17ezoGIYzXyROj4tI6Fmu8cRiYH3jHM3m/view?usp=sharing)
 *Image Upload → OpenCV Coin Detection (Hough Circles) → Leaflet Masking (HSV) → Gap Bounding Boxes → Millimeter Conversion → Over-engineered Dashboard.*
 
 ### Project Demo
