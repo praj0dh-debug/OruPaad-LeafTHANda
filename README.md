@@ -61,7 +61,7 @@ For Software:
 *A quick walkthrough of measuring a palm leaf and getting a ridiculous scientific conclusion.*
 
 # Additional Demos
-[Live Vercel Link here]
+[https://oru-paad-leaf-tha-nda-zeta.vercel.app/]
 
 ## Team Contributions
 - Prajod Prakash: Programmer
