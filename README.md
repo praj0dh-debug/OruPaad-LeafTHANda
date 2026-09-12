@@ -7,7 +7,7 @@
 
 ### Team Members
 - Team Lead: Prajod Prakash - Providence college of engineering
-- Member 2: Joyal Francis - Providence college of engineering
+- Member 2: Joel Francis - Providence college of engineering
 
 ### Project Description
 A sophisticated web application that uses computer vision to detect, measure, and analyze the empty space between palm leaf strips. It assigns humorous "personalities" to the gaps and calculates a "Uselessness Score" based on how meticulously it over-analyzed botanical nothingness.
@@ -65,7 +65,7 @@ For Software:
 
 ## Team Contributions
 - Prajod Prakash: Programmer
-- Joyal Francis: Main idea thinker
+- Joel Francis: Main idea thinker
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
